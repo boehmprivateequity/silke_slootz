@@ -1,0 +1,18 @@
+@font-face { font-family: "Cormorant"; src: url(fonts/cormorant.woff2) format("woff2"); font-weight: 300 700; font-display: swap; }
+@font-face { font-family: "Inter"; src: url(fonts/inter.woff2) format("woff2"); font-weight: 100 900; font-display: swap; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #FFF9E9; color: #2A2620; font: 400 17px/1.7 "Inter", system-ui, sans-serif; }
+header { background: #111; border-bottom: 1px solid rgba(212, 175, 55, .3); }
+header .wrap { height: 72px; display: flex; align-items: center; justify-content: space-between; }
+header a { color: #F6C945; text-decoration: none; }
+.brand { font: 600 1.6rem/1 "Cormorant", Georgia, serif; color: #fff !important; }
+.wrap { width: min(820px, 100% - 32px); margin-inline: auto; }
+main { padding: 56px 0 80px; }
+h1, h2 { font-family: "Cormorant", Georgia, serif; font-weight: 600; line-height: 1.15; color: #111; }
+h1 { font-size: clamp(2.2rem, 5vw, 3rem); margin: 0 0 .3em; }
+h2 { font-size: 1.6rem; margin: 1.8em 0 .4em; }
+a { color: #9C7A16; }
+.todo { background: #FFE48A; padding: 0 .3em; border-radius: 4px; }
+.box { background: #fff; border-left: 4px solid #F6C945; padding: 16px 20px; border-radius: 8px; margin: 24px 0; font-size: .92rem; }
+footer { background: #111; color: #A9A08A; padding: 28px 0; font-size: .85rem; }
+footer a { color: #EDE6D2; margin-right: 18px; }

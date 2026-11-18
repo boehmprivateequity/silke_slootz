@@ -1,0 +1,1029 @@
+<!doctype html>
+<html lang="de" data-lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silke Slootz – Medium, Channeling, Tarot & systemische Begleitung in München</title>
+<meta name="description" content="Silke Slootz – Medium, Channel, Tarot und systemische Begleitung in München. Brücke zwischen den Welten: Botschaften, Orientierung und Klarheit für dein irdisches Leben.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Silke Slootz – Brücke zwischen den Welten">
+<meta property="og:description" content="Medium · Channeling · Tarot · Systemische Begleitung in München">
+<meta property="og:image" content="images/entwurf-hero.jpg">
+<link rel="preload" href="fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Silke Slootz",
+  "description": "Medium, Channeling, Tarot und systemische Begleitung",
+  "telephone": "+491791239006",
+  "areaServed": "DE",
+  "address": { "@type": "PostalAddress", "addressLocality": "München", "addressCountry": "DE" }
+}
+</script>
+<style>
+/* ---------- Schriften (lokal gespeichert, keine Verbindung zu Google) ---------- */
+@font-face { font-family: "Cormorant"; src: url(fonts/cormorant.woff2) format("woff2"); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant"; src: url(fonts/cormorant-italic.woff2) format("woff2"); font-weight: 300 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Inter"; src: url(fonts/inter.woff2) format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+
+/* ---------- Farben ---------- */
+:root {
+  --sun: #F6C945;
+  --gold: #D4AF37;
+  --gold-dark: #9C7A16;
+  --black: #111111;
+  --anthracite: #242424;
+  --cream: #FFF9E9;
+  --cream-2: #FDF1CC;
+  --white: #FFFFFF;
+  --text: #2A2620;
+  --muted: #6B6252;
+  --line: rgba(212, 175, 55, .35);
+  --serif: "Cormorant", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 14px;
+  --header-h: 76px;
+  --shadow: 0 10px 40px rgba(60, 44, 0, .12);
+}
+
+/* ---------- Sprache: nur die gewählte Sprache anzeigen ---------- */
+html[data-lang="de"] body [lang="en"],
+html[data-lang="en"] body [lang="de"] { display: none !important; }
+
+/* ---------- Grundlagen ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 8px); -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--cream); color: var(--text); font: 400 17px/1.7 var(--sans); }
+img, svg { max-width: 100%; display: block; }
+a { color: var(--gold-dark); }
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.12; margin: 0 0 .5em; color: var(--black); }
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.5rem, 2.4vw, 1.9rem); }
+p { margin: 0 0 1em; }
+.wrap { width: min(1180px, 100% - 32px); margin-inline: auto; }
+.section { padding: clamp(64px, 9vw, 120px) 0; position: relative; }
+.eyebrow { font: 600 .78rem/1.4 var(--sans); letter-spacing: .28em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 14px; display: block; }
+.rule { width: 90px; height: 2px; background: linear-gradient(90deg, var(--gold), transparent); border: 0; margin: 22px 0 28px; }
+.center { text-align: center; }
+.center .rule { margin-inline: auto; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.lead { font-family: var(--serif); font-size: clamp(1.35rem, 2.2vw, 1.7rem); line-height: 1.4; color: var(--anthracite); }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 16px; top: 16px; z-index: 999; background: var(--sun); color: var(--black); padding: 10px 16px; border-radius: 8px; }
+:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; }
+
+/* ---------- Schaltflächen ---------- */
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 26px; border-radius: 999px; font: 600 .95rem/1.2 var(--sans); text-decoration: none; cursor: pointer; border: 2px solid transparent; transition: transform .2s, box-shadow .2s, background .2s, color .2s; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+.btn-gold { background: var(--sun); color: var(--black); box-shadow: 0 6px 20px rgba(246, 201, 69, .45); }
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(246, 201, 69, .6); }
+.btn-outline { border-color: var(--black); color: var(--black); background: transparent; }
+.btn-outline:hover { background: var(--black); color: var(--sun); }
+.btn-dark { background: var(--black); color: var(--sun); }
+.btn-dark:hover { transform: translateY(-2px); }
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
+
+/* ---------- Kopfzeile ---------- */
+.header { position: sticky; top: 0; z-index: 50; background: var(--black); border-bottom: 1px solid rgba(212, 175, 55, .3); }
+.header .wrap { height: var(--header-h); display: flex; align-items: center; gap: 24px; width: min(1400px, 100% - 32px); }
+.btn { white-space: nowrap; }
+.lang { flex: none; }
+.logo { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--white); flex: none; }
+.logo svg { width: 50px; height: 50px; }
+.logo-name { font: 600 1.75rem/1 var(--serif); color: var(--white); letter-spacing: .01em; }
+.logo-sub { display: block; font: 500 .6rem/1 var(--sans); letter-spacing: .26em; color: var(--sun); margin-top: 6px; text-transform: uppercase; }
+.nav { margin-left: auto; display: flex; align-items: center; gap: 4px; }
+.nav a { color: #EDE6D2; text-decoration: none; font-size: .9rem; padding: 8px 11px; border-radius: 6px; position: relative; white-space: nowrap; }
+.nav a::after { content: ""; position: absolute; left: 11px; right: 11px; bottom: 2px; height: 2px; background: var(--sun); transform: scaleX(0); transition: transform .25s; }
+.nav a:hover, .nav a.active { color: var(--white); }
+.nav a:hover::after, .nav a.active::after { transform: scaleX(1); }
+.tools { display: flex; align-items: center; gap: 12px; }
+.lang { display: flex; border: 1px solid rgba(246, 201, 69, .5); border-radius: 999px; overflow: hidden; }
+.lang button { background: none; border: 0; color: #EDE6D2; font: 600 .75rem/1 var(--sans); padding: 8px 11px; cursor: pointer; letter-spacing: .08em; }
+.lang button[aria-pressed="true"] { background: var(--sun); color: var(--black); }
+.header .btn { padding: 10px 18px; font-size: .85rem; }
+.burger { display: none; background: none; border: 0; color: var(--sun); padding: 8px; cursor: pointer; }
+.burger svg { width: 28px; height: 28px; }
+
+@media (max-width: 1360px) {
+  .nav { position: fixed; inset: var(--header-h) 0 auto 0; background: var(--black); flex-direction: column; align-items: stretch; padding: 12px 16px 24px; gap: 0; border-bottom: 1px solid var(--line); transform: translateY(-120%); transition: transform .3s; z-index: -1; max-height: calc(100vh - var(--header-h)); overflow: auto; }
+  .nav.open { transform: none; }
+  .nav a { padding: 14px 8px; font-size: 1.05rem; border-bottom: 1px solid rgba(255, 255, 255, .07); }
+  .nav a::after { display: none; }
+  .burger { display: block; }
+  .tools { margin-left: auto; }
+}
+@media (max-width: 640px) {
+  :root { --header-h: 66px; }
+  .header .btn { display: none; }
+  .logo svg { width: 40px; height: 40px; }
+  .logo-name { font-size: 1.4rem; }
+  .logo-sub { font-size: .5rem; letter-spacing: .18em; }
+  .header .wrap { gap: 12px; }
+}
+
+/* ---------- Startbereich ---------- */
+.hero { position: relative; overflow: hidden; background: radial-gradient(ellipse at 75% 30%, #FFE9A3 0%, var(--cream) 55%), var(--cream); padding: clamp(48px, 7vw, 96px) 0 clamp(56px, 8vw, 110px); }
+.hero::before { content: ""; position: absolute; width: 900px; height: 900px; right: -260px; top: -300px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23D4AF37' stroke-width='.4' opacity='.55'%3E%3Ccircle cx='100' cy='100' r='96'/%3E%3Ccircle cx='100' cy='100' r='30'/%3E%3Ccircle cx='100' cy='70' r='30'/%3E%3Ccircle cx='100' cy='130' r='30'/%3E%3Ccircle cx='74' cy='85' r='30'/%3E%3Ccircle cx='126' cy='85' r='30'/%3E%3Ccircle cx='74' cy='115' r='30'/%3E%3Ccircle cx='126' cy='115' r='30'/%3E%3Ccircle cx='100' cy='100' r='60'/%3E%3C/g%3E%3C/svg%3E") center/contain no-repeat; pointer-events: none; }
+.hero .wrap { display: grid; grid-template-columns: 1fr 1.05fr; gap: clamp(32px, 5vw, 72px); align-items: center; position: relative; }
+.hero h1 { font-size: clamp(3.2rem, 8vw, 6.2rem); margin-bottom: .1em; letter-spacing: -.01em; }
+.hero .roles { font: 500 clamp(.8rem, 1.4vw, 1.05rem)/1.8 var(--sans); letter-spacing: .3em; text-transform: uppercase; color: var(--anthracite); margin: 0; }
+.hero .tagline { font: italic 500 clamp(1.6rem, 3vw, 2.3rem)/1.25 var(--serif); color: var(--black); margin: 0 0 18px; }
+.hero p.q { color: var(--muted); max-width: 52ch; }
+.hero-figure { position: relative; margin: 0; }
+.hero-figure img { width: 100%; height: auto; border-radius: 20px; box-shadow: 0 30px 80px rgba(156, 122, 22, .35), 0 0 0 1px var(--line); }
+.hero-figure figcaption { position: absolute; left: -24px; bottom: -28px; max-width: 330px; background: var(--black); color: #F5EDD6; padding: 20px 24px; border-radius: 12px; font: italic 500 1.15rem/1.45 var(--serif); box-shadow: var(--shadow); border-left: 3px solid var(--sun); }
+@media (max-width: 900px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .hero-figure { order: -1; }
+  .hero-figure figcaption { position: static; max-width: none; margin-top: -24px; margin-inline: 16px; position: relative; }
+}
+
+/* ---------- Einleitung ---------- */
+.intro { background: var(--black); color: #EDE6D2; text-align: center; }
+.intro h2 { color: var(--sun); }
+.intro p { max-width: 760px; margin-inline: auto; }
+.intro .lead { color: var(--white); }
+
+/* ---------- Über mich ---------- */
+.about-grid { display: grid; grid-template-columns: 280px 1fr 340px; gap: clamp(28px, 4vw, 56px); align-items: start; }
+.portrait { margin: 0; position: sticky; top: calc(var(--header-h) + 24px); }
+.portrait img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 160px 160px 16px 16px; box-shadow: var(--shadow); border: 3px solid var(--white); outline: 1px solid var(--gold); }
+.portrait figcaption { text-align: center; margin-top: 14px; font: italic 500 1.2rem var(--serif); color: var(--muted); }
+.facts { background: var(--white); border-radius: var(--radius); padding: 30px 28px; box-shadow: var(--shadow); border-top: 4px solid var(--sun); }
+.facts h3 { font-size: 1.6rem; }
+.facts ul { list-style: none; padding: 0; margin: 0; }
+.facts li { display: flex; gap: 14px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid #F1E7C8; font-size: .93rem; line-height: 1.45; }
+.facts li:last-child { border-bottom: 0; }
+.facts svg { width: 26px; height: 26px; flex: none; color: var(--gold-dark); }
+.callout { background: linear-gradient(135deg, #FFF3C4, #FFE48A); border-radius: var(--radius); padding: 22px 26px; margin-top: 26px; display: flex; gap: 16px; align-items: flex-start; border: 1px solid var(--line); }
+.callout svg { width: 34px; height: 34px; flex: none; color: var(--gold-dark); }
+.callout p { margin: 0; font-weight: 500; }
+@media (max-width: 1080px) {
+  .about-grid { grid-template-columns: 240px 1fr; }
+  .facts { grid-column: 1 / -1; }
+}
+@media (max-width: 720px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .portrait { position: static; max-width: 260px; margin-inline: auto; }
+}
+
+/* ---------- Mein Weg (Zeitstrahl) ---------- */
+.way { background: linear-gradient(180deg, var(--white), var(--cream)); }
+.timeline { list-style: none; margin: 48px 0 0; padding: 0; position: relative; display: grid; gap: 0; }
+.timeline::before { content: ""; position: absolute; left: 27px; top: 10px; bottom: 10px; width: 2px; background: linear-gradient(var(--sun), var(--gold), transparent); }
+.timeline li { position: relative; padding: 0 0 40px 84px; }
+.timeline .dot { position: absolute; left: 0; top: 0; width: 56px; height: 56px; border-radius: 50%; background: var(--black); color: var(--sun); display: grid; place-items: center; box-shadow: 0 0 0 6px var(--cream); }
+.timeline .dot svg { width: 26px; height: 26px; }
+.timeline h3 { margin-bottom: .3em; padding-top: 10px; }
+.timeline p { max-width: 70ch; color: #3E382D; }
+
+/* ---------- Berufung (dunkel) ---------- */
+.calling { background: radial-gradient(ellipse at 20% 0%, #3A2E08 0%, var(--black) 60%); color: #E9E1C9; overflow: hidden; }
+.calling h2 { color: var(--white); }
+.calling .eyebrow { color: var(--sun); }
+.calling-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.levels { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.levels li { border: 1px solid rgba(246, 201, 69, .35); border-radius: 12px; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center; gap: 12px; background: rgba(246, 201, 69, .04); }
+.levels li:nth-child(1) { margin-inline: 0; background: rgba(246, 201, 69, .22); color: var(--white); border-color: var(--sun); }
+.levels li:nth-child(2) { margin-inline: 12px; background: rgba(246, 201, 69, .14); }
+.levels li:nth-child(3) { margin-inline: 24px; background: rgba(246, 201, 69, .09); }
+.levels li:nth-child(4) { margin-inline: 36px; }
+.levels li:nth-child(5) { margin-inline: 48px; }
+.levels strong { font: 600 1.25rem var(--serif); color: var(--sun); }
+.levels span { font-size: .82rem; color: #BDB49A; text-align: right; }
+.levels-caption { font-size: .8rem; color: #9E9680; margin-top: 14px; text-align: center; }
+@media (max-width: 860px) { .calling-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Leistungen ---------- */
+.services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; margin-top: 48px; }
+.card { background: var(--white); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; border: 1px solid #F3E6BD; }
+.card-visual { aspect-ratio: 16 / 9; background: radial-gradient(ellipse at 50% 30%, #3B2F0A, var(--black) 70%); position: relative; overflow: hidden; }
+.card-visual svg, .card-visual img { width: 100%; height: 100%; object-fit: cover; }
+.card-body { padding: 28px 30px 32px; display: flex; flex-direction: column; flex: 1; }
+.card-body h3 { margin-bottom: .15em; }
+.card-sub { font: italic 500 1.15rem/1.4 var(--serif); color: var(--gold-dark); margin-bottom: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 4px 0 18px; }
+.tags li { font-size: .78rem; background: var(--cream-2); color: #5A4A14; padding: 5px 12px; border-radius: 999px; }
+.note { font-size: .8rem; color: var(--muted); border-top: 1px solid #F1E7C8; padding-top: 14px; margin-top: auto; margin-bottom: 0; }
+@media (max-width: 820px) { .services-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Medialität ---------- */
+.medium { background: linear-gradient(135deg, #FFF3C4 0%, var(--cream) 60%); }
+.medium-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 64px); align-items: center; }
+.medium-box { background: var(--black); color: #EDE6D2; border-radius: 18px; padding: 36px; position: relative; overflow: hidden; }
+.medium-box::after { content: "40"; position: absolute; right: -10px; bottom: -60px; font: 600 220px/1 var(--serif); color: rgba(246, 201, 69, .12); pointer-events: none; }
+.medium-box h3 { color: var(--sun); }
+@media (max-width: 860px) { .medium-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Chakren ---------- */
+.chakra-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(32px, 5vw, 64px); align-items: start; margin-top: 40px; }
+.chakra-list { list-style: none; padding: 0; margin: 24px 0 0; }
+.chakra-list li { display: grid; grid-template-columns: 22px 150px 1fr; gap: 14px; align-items: center; padding: 10px 0; border-bottom: 1px solid #F1E7C8; font-size: .95rem; }
+.chakra-list .c { width: 18px; height: 18px; border-radius: 50%; box-shadow: 0 0 12px currentColor; background: currentColor; }
+.chakra-list strong { font-weight: 600; }
+.chakra-list span { color: var(--muted); }
+.chakra-visuals { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.chakra-visuals figure { margin: 0; background: radial-gradient(ellipse at 50% 30%, #3B2F0A, var(--black) 75%); border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; }
+.chakra-visuals img { width: 100%; height: 100%; object-fit: cover; flex: 1; }
+.chakra-visuals figcaption { font-size: .8rem; color: #CFC6AB; padding: 12px 16px; text-align: center; }
+.chakra-visuals .suit { padding: 18px 10px 0; }
+@media (max-width: 960px) { .chakra-grid { grid-template-columns: 1fr; } }
+@media (max-width: 520px) {
+  .chakra-list li { grid-template-columns: 22px 1fr; }
+  .chakra-list span { grid-column: 2; margin-top: -8px; font-size: .88rem; }
+  .chakra-visuals { grid-template-columns: 1fr; }
+}
+
+/* ---------- Dualität ---------- */
+.duality { background: radial-gradient(ellipse at 85% 20%, #FFE38A 0%, #FFF5D6 40%, var(--cream) 70%); }
+.d-compare { display: grid; grid-template-columns: 1fr auto 1fr; gap: 22px; align-items: stretch; margin: 48px 0 40px; }
+.d-card { border-radius: 18px; padding: 32px; }
+.d-card.d1 { background: var(--anthracite); color: #D9D1BA; }
+.d-card.d1 h3 { color: var(--white); }
+.d-card.d2 { background: var(--white); box-shadow: var(--shadow); border: 2px solid var(--sun); }
+.d-badge { display: inline-block; font: 700 .75rem/1 var(--sans); letter-spacing: .2em; padding: 7px 12px; border-radius: 999px; margin-bottom: 14px; }
+.d1 .d-badge { background: #3A3A3A; color: var(--sun); }
+.d2 .d-badge { background: var(--sun); color: var(--black); }
+.d-card ul { padding-left: 1.1em; margin: 0; }
+.d-card li { margin-bottom: 4px; }
+.d-arrow { display: grid; place-items: center; color: var(--gold-dark); }
+.d-arrow svg { width: 56px; height: 56px; }
+.d-text { max-width: 820px; margin-inline: auto; }
+@media (max-width: 820px) {
+  .d-compare { grid-template-columns: 1fr; }
+  .d-arrow svg { transform: rotate(90deg); }
+}
+
+/* ---------- Werte ---------- */
+.values-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 44px; }
+.value { background: var(--white); border-radius: var(--radius); padding: 28px 24px; text-align: center; border: 1px solid #F3E6BD; }
+.value svg { width: 44px; height: 44px; margin: 0 auto 14px; color: var(--gold-dark); }
+.value h3 { font-size: 1.5rem; }
+.value p { font-size: .92rem; color: var(--muted); margin: 0; }
+@media (max-width: 900px) { .values-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .values-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Honorar ---------- */
+.fees { background: linear-gradient(135deg, var(--sun), #FBDD7A 50%, var(--gold)); color: var(--black); }
+.fees .eyebrow { color: #4A3B0A; }
+.fees p { max-width: 720px; margin-inline: auto; }
+.fees .btn-row { justify-content: center; }
+
+/* ---------- Kontakt ---------- */
+.contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(32px, 5vw, 64px); margin-top: 40px; }
+.contact-card { background: var(--black); color: #EDE6D2; border-radius: 18px; padding: 36px; }
+.contact-card h3 { color: var(--white); }
+.contact-line { display: flex; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid rgba(255, 255, 255, .08); color: #EDE6D2; text-decoration: none; }
+.contact-line svg { width: 24px; height: 24px; color: var(--sun); flex: none; }
+.contact-line small { display: block; color: #9E9680; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+a.contact-line:hover strong { color: var(--sun); }
+.contact-card .btn-row { flex-direction: column; }
+.contact-card .btn { justify-content: center; }
+.btn-wa { background: #25D366; color: #0B3D1E; }
+.btn-wa:hover { transform: translateY(-2px); }
+form.request { background: var(--white); border-radius: 18px; padding: 36px; box-shadow: var(--shadow); }
+.field { margin-bottom: 18px; }
+.field label { display: block; font-weight: 600; font-size: .88rem; margin-bottom: 6px; }
+.field input, .field select, .field textarea { width: 100%; font: inherit; font-size: 1rem; padding: 12px 14px; border-radius: 10px; border: 1px solid #E2D5AE; background: #FFFDF6; color: var(--text); }
+.field textarea { min-height: 120px; resize: vertical; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--sun); border-color: var(--gold); }
+.form-hint { font-size: .8rem; color: var(--muted); margin: 14px 0 0; }
+@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Fußzeile ---------- */
+.footer { background: var(--black); color: #A9A08A; padding: 56px 0 110px; font-size: .88rem; }
+.footer-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: start; }
+.footer .logo { margin-bottom: 18px; }
+.footer nav { display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: flex-end; }
+.footer nav a { color: #EDE6D2; text-decoration: none; }
+.footer nav a:hover { color: var(--sun); }
+.disclaimer { border-top: 1px solid rgba(255, 255, 255, .08); margin-top: 32px; padding-top: 22px; font-size: .78rem; line-height: 1.6; }
+@media (max-width: 720px) { .footer-grid { grid-template-columns: 1fr; } .footer nav { justify-content: flex-start; } }
+
+/* ---------- Kontaktleiste unten ---------- */
+.dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: rgba(255, 249, 233, .96); backdrop-filter: blur(8px); border-top: 1px solid var(--line); box-shadow: 0 -6px 24px rgba(0, 0, 0, .06); }
+.dock .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 68px; }
+.dock a { display: flex; align-items: center; gap: 10px; color: var(--black); text-decoration: none; font-weight: 500; }
+.dock a svg { width: 22px; height: 22px; color: var(--gold-dark); flex: none; }
+.dock .sep { width: 1px; height: 28px; background: var(--line); }
+.dock .btn { padding: 11px 22px; }
+.dock .btn svg { color: var(--black); }
+@media (max-width: 760px) {
+  .dock .wrap { height: 62px; justify-content: space-around; }
+  .dock .sep, .dock .lbl { display: none; }
+  .dock a { flex-direction: column; gap: 2px; font-size: .7rem; }
+  .dock .btn { flex-direction: row; font-size: .82rem; padding: 10px 16px; }
+}
+
+/* ---------- Ruhige Einblend-Animation ---------- */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+.glow { animation: glow 6s ease-in-out infinite; transform-origin: center; }
+@keyframes glow { 50% { opacity: .55; } }
+@media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="de">Zum Inhalt springen</span><span lang="en">Skip to content</span></a>
+
+<!-- Symbole, die mehrfach verwendet werden -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-flower" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="32" cy="32" r="29"/><circle cx="32" cy="32" r="10"/><circle cx="32" cy="22" r="10"/><circle cx="32" cy="42" r="10"/><circle cx="23.3" cy="27" r="10"/><circle cx="40.7" cy="27" r="10"/><circle cx="23.3" cy="37" r="10"/><circle cx="40.7" cy="37" r="10"/></g></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4M7.5 13.5h2M11 13.5h2M14.5 13.5h2M7.5 17h2M11 17h2"/></g></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></g></symbol>
+  <symbol id="i-lotus" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M24 10c5 5 6 12 0 22-6-10-5-17 0-22z"/><path d="M24 32c-4-8-11-13-18-12 1 8 8 13 18 12z"/><path d="M24 32c4-8 11-13 18-12-1 8-8 13-18 12z"/><path d="M8 37h32"/></g></symbol>
+</svg>
+
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="#start" aria-label="Silke Slootz – Startseite">
+      <svg style="color:var(--sun)"><use href="#i-flower"/></svg>
+      <span><span class="logo-name">Silke Slootz</span><span class="logo-sub">Medium · Channel · Tarot · Systemik</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Hauptnavigation">
+      <a href="#start"><span lang="de">Start</span><span lang="en">Home</span></a>
+      <a href="#ueber"><span lang="de">Über Silke</span><span lang="en">About Silke</span></a>
+      <a href="#weg"><span lang="de">Mein Weg</span><span lang="en">My Journey</span></a>
+      <a href="#leistungen"><span lang="de">Leistungen</span><span lang="en">Services</span></a>
+      <a href="#chakren"><span lang="de">Chakren</span><span lang="en">Chakras</span></a>
+      <a href="#dualitaet">D1 &amp; D2</a>
+      <a href="#kontakt"><span lang="de">Kontakt</span><span lang="en">Contact</span></a>
+    </nav>
+    <div class="tools">
+      <div class="lang" role="group" aria-label="Sprache / Language">
+        <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-gold" href="#kontakt"><svg><use href="#i-cal"/></svg><span lang="de">Termin anfragen</span><span lang="en">Request an Appointment</span></a>
+      <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menü öffnen">
+        <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= START ================= -->
+<section class="hero" id="start">
+  <div class="wrap">
+    <div class="reveal">
+      <h1>Silke Slootz</h1>
+      <p class="roles" lang="de">Channel · Medium · Tarot<br>Systemische Begleitung</p>
+      <p class="roles" lang="en">Channel · Medium · Tarot<br>Systemic Guidance</p>
+      <hr class="rule">
+      <p class="tagline" lang="de">Brücke zwischen den Welten – Botschaften, Orientierung und Klarheit für dein irdisches Leben.</p>
+      <p class="tagline" lang="en">A bridge between worlds – messages, orientation and clarity for your earthly life.</p>
+      <p class="q" lang="de">Manchmal beginnt ein neuer Lebensabschnitt mit einer Frage, auf die der Verstand allein keine Antwort findet: Wer bin ich? Warum begegnen mir bestimmte Menschen? Weshalb wiederholen sich Erfahrungen? Und welchen Weg habe ich für mein Leben gewählt?</p>
+      <p class="q" lang="en">Sometimes a new chapter in life begins with a question that reason alone cannot answer: Who am I? Why do certain people enter my life? Why do some experiences keep repeating? And which path have I chosen for this life?</p>
+      <div class="btn-row">
+        <a class="btn btn-dark" href="#leistungen"><span lang="de">Meine Leistungen entdecken</span><span lang="en">Explore my services</span><svg><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-outline" href="#kontakt"><svg><use href="#i-cal"/></svg><span lang="de">Persönlichen Termin anfragen</span><span lang="en">Request a personal appointment</span></a>
+      </div>
+    </div>
+    <figure class="hero-figure reveal">
+      <img src="images/entwurf-hero.jpg" width="525" height="340" fetchpriority="high"
+           alt="Silke Slootz in weißer Kleidung hält ihre Hände über eine ruhende Person auf einer Liege – energetische Sitzung"
+           data-alt-en="Silke Slootz dressed in white holding her hands above a person resting on a couch – energy session">
+      <figcaption>
+        <span lang="de">„Alles ist verbunden – Körper, Seele, Bewusstsein und die höheren Ebenen. Ich darf diese Verbindung sichtbar machen.“</span>
+        <span lang="en">“Everything is connected – body, soul, consciousness and the higher levels. I am allowed to make this connection visible.”</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= EINLEITUNG ================= -->
+<section class="section intro">
+  <div class="wrap reveal">
+    <svg style="width:56px;height:56px;margin:0 auto 18px;color:var(--sun)" class="glow" aria-hidden="true"><use href="#i-flower"/></svg>
+    <h2 lang="de">Ich bin Silke Slootz.</h2>
+    <h2 lang="en">My name is Silke Slootz.</h2>
+    <p class="lead" lang="de">Ich bin ein sehr spiritueller Mensch, verbunden mit hohen Energien – und ich nutze viele Kanäle, um ihre Botschaften hier auf der Erde sichtbar zu machen.</p>
+    <p class="lead" lang="en">I am a deeply spiritual person, connected with high energies – and I use many channels to make their messages visible here on Earth.</p>
+    <p lang="de">Ich begleite Menschen dabei, neue Perspektiven auf ihre Erfahrungen, Beziehungen und Lebensentscheidungen zu gewinnen. Meine Arbeit verbindet intuitive und mediale Wahrnehmung, langjährige Lebenserfahrung und einen analytisch geschulten Blick auf die Welt. Ich verstehe mich als Brücke zwischen dem menschlichen Alltag und den Ebenen, mit denen ich verbunden bin.</p>
+    <p lang="en">I accompany people in gaining new perspectives on their experiences, relationships and life decisions. My work combines intuitive and mediumistic perception, many years of life experience and an analytically trained view of the world. I see myself as a bridge between everyday human life and the levels I am connected with.</p>
+  </div>
+</section>
+
+<!-- ================= ÜBER MICH ================= -->
+<section class="section" id="ueber">
+  <div class="wrap about-grid">
+    <figure class="portrait reveal">
+      <img src="images/entwurf-portrait.jpg" width="166" height="242" loading="lazy"
+           alt="Porträt von Silke Slootz" data-alt-en="Portrait of Silke Slootz">
+      <figcaption>Silke Slootz</figcaption>
+    </figure>
+
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Über Silke</span><span class="eyebrow" lang="en">About Silke</span>
+      <h2 lang="de">Ein Mensch zwischen zwei Welten</h2>
+      <h2 lang="en">A life between two worlds</h2>
+      <div lang="de">
+        <p>Ich bin Mensch, Frau, Mutter und Partnerin. Und seit meiner Kindheit begleitet mich das Wissen, dass die sichtbare Welt nicht die ganze Wirklichkeit ist. Schon meine Mutter lebte eine tiefe spirituelle Verbindung. Durch sie waren mir Fragen nach Seele, Bewusstsein und den unsichtbaren Zusammenhängen früh vertraut.</p>
+        <p>Wir Menschen bestehen zu über 60&nbsp;% aus Wasser. Für mich ist das ein Sinnbild dafür, wie empfänglich wir für Informationen aus höheren Ebenen sind. Diese Informationen nehme ich auf und gebe sie weiter. So möchte ich den Menschen als Brücke dienen.</p>
+        <p>In meinem Weltbild ist die Erde eine Matrix: eine Erfahrungsebene unterhalb der astralen Ebene, die ich als unsere eigentliche Heimat empfinde. Hier gehen wir unsere selbst gewählten Wege und lernen durch Begegnungen, Freude, Konflikte und Trennungen.</p>
+        <p>Ich verstehe mich als <strong>A-Medium</strong>: Ich darf auch mit den höchsten Schwingungen und Wahrheiten in Kontakt treten. <strong>Respekt und Wahrhaftigkeit</strong> begleiten mich bei jeder energetischen Arbeit.</p>
+      </div>
+      <div lang="en">
+        <p>I am a human being, a woman, a mother and a partner. And since childhood I have known that the visible world is not the whole of reality. My mother already lived a deep spiritual connection. Through her, questions about the soul, consciousness and the invisible connections of life became familiar to me early on.</p>
+        <p>We humans consist of more than 60&nbsp;% water. To me, this is a symbol of how receptive we are to information from higher levels. I receive this information and pass it on. In this way, I want to serve people as a bridge.</p>
+        <p>In my worldview, Earth is a matrix: a level of experience beneath the astral plane, which I feel is our true home. Here we walk the paths we have chosen for ourselves and learn through encounters, joy, conflicts and separations.</p>
+        <p>I see myself as an <strong>A-medium</strong>: I am allowed to connect even with the highest vibrations and truths. <strong>Respect and truthfulness</strong> guide every part of my energy work.</p>
+      </div>
+    </div>
+
+    <aside class="facts reveal" aria-labelledby="facts-h">
+      <h3 id="facts-h"><span lang="de">Mein Hintergrund</span><span lang="en">My background</span></h3>
+      <ul>
+        <li><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6"/></g></svg>
+          <span lang="de">Studium der Wirtschaftsinformatik<br><small>Verbindung von Bewusstsein &amp; Technologie</small></span>
+          <span lang="en">Degree in Business Information Systems<br><small>Connecting consciousness &amp; technology</small></span></li>
+        <li><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="3" width="10" height="18"/><path d="M15 9h4v12h-4M8 7h1M11 7h1M8 11h1M11 11h1M8 15h1M11 15h1M3 21h18"/></g></svg>
+          <span lang="de">Langjährige Tätigkeit bei SAP</span><span lang="en">Many years at SAP</span></li>
+        <li><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="5" r="2.2"/><circle cx="17" cy="5" r="2.2"/><circle cx="12" cy="11" r="1.8"/><path d="M4 21v-7a3 3 0 0 1 6 0v7M14 21v-7a3 3 0 0 1 6 0v7M10.5 21v-4a1.5 1.5 0 0 1 3 0v4"/></g></svg>
+          <span lang="de">Mutter von zwei Kindern</span><span lang="en">Mother of two children</span></li>
+        <li><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="4" y="5" width="16" height="11" rx="1"/><path d="M2 19h20"/></g></svg>
+          <span lang="de">Wieder im Berufsleben in einer Softwarefirma</span><span lang="en">Back at work in a software company</span></li>
+        <li><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 12c-2-2.7-3.6-4-5.5-4a4 4 0 0 0 0 8c1.9 0 3.5-1.3 5.5-4zm0 0c2 2.7 3.6 4 5.5 4a4 4 0 0 0 0-8c-1.9 0-3.5 1.3-5.5 4z"/></svg>
+          <span lang="de">Spirituelle Begleiterin &amp; Consultant für die geistige Ebene</span><span lang="en">Spiritual guide &amp; consultant for the spiritual realm</span></li>
+        <li><svg><use href="#i-pin"/></svg>
+          <span lang="de">Aus Mannheim · lebt in München<br><small>in Partnerschaft mit einem Partner aus Wien</small></span>
+          <span lang="en">From Mannheim · lives in Munich<br><small>in a relationship with a partner from Vienna</small></span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= MEIN WEG ================= -->
+<section class="section way" id="weg">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Mein irdischer Weg</span><span class="eyebrow" lang="en">My earthly journey</span>
+      <h2 lang="de">Zwischen Technologie, Familie und Spiritualität</h2>
+      <h2 lang="en">Between technology, family and spirituality</h2>
+    </div>
+    <ol class="timeline">
+      <li class="reveal">
+        <span class="dot"><svg><use href="#i-pin"/></svg></span>
+        <h3>Mannheim</h3>
+        <p lang="de">Ich komme ursprünglich aus Mannheim. Schon früh wollte ich verstehen, wie komplexe Systeme funktionieren und wie die unterschiedlichen Ebenen miteinander verbunden sind.</p>
+        <p lang="en">I originally come from Mannheim, Germany. From an early age I wanted to understand how complex systems work and how the different levels are connected.</p>
+      </li>
+      <li class="reveal">
+        <span class="dot"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></g></svg></span>
+        <h3 lang="de">Studium der Wirtschaftsinformatik</h3><h3 lang="en">Business Information Systems</h3>
+        <p lang="de">Mein irdischer Weg führte mich zum Studium der Wirtschaftsinformatik, rückblickend, um die astralen Ebenen besser technisch abstrahieren zu können. Architekturen, Schnittstellen, Informationsflüsse und Systemebenen: Diese Begriffe helfen mir heute, meine spirituellen Erfahrungen zu ordnen und verständlich zu beschreiben.</p>
+        <p lang="en">My earthly path led me to study Business Information Systems. Looking back, it was so that I could abstract the astral levels in technical terms. Architectures, interfaces, information flows and system layers: these concepts help me today to structure my spiritual experiences and describe them clearly.</p>
+      </li>
+      <li class="reveal">
+        <span class="dot"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></span>
+        <h3 lang="de">München, Familie &amp; SAP</h3><h3 lang="en">Munich, family &amp; SAP</h3>
+        <p lang="de">Nach dem Studium zog ich nach München. Hier verliebte ich mich, heiratete und bekam zwei Kinder. Viele Jahre arbeitete ich bei SAP und war zugleich Mutter in Vollzeit. Ich kenne die Anforderungen der Wirtschaft ebenso wie die Herausforderung, Beruf, Partnerschaft und Familie zu verbinden.</p>
+        <p lang="en">After my studies I moved to Munich. There I fell in love, married and had two children. For many years I worked at SAP while also being a full-time mother. I know the demands of business as well as the challenge of balancing career, partnership and family.</p>
+      </li>
+      <li class="reveal">
+        <span class="dot"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M4 12h6M14 12h6M10 7l-3 5 3 5M14 7l3 5-3 5"/></svg></span>
+        <h3 lang="de">Trennung als Entwicklungsweg</h3><h3 lang="en">Separation as a path of growth</h3>
+        <p lang="de">Der Prozess der Trennung wurde mir auferlegt. Heute sehe ich, dass auch er Teil meines Weges war. Ich habe gelernt, vertraute Strukturen loszulassen, Veränderung anzunehmen und meinen Weg neu zu bestimmen.</p>
+        <p lang="en">The process of separation was imposed on me. Today I see that it, too, was part of my path. I learned to let go of familiar structures, to accept change and to redefine my way.</p>
+      </li>
+      <li class="reveal">
+        <span class="dot"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></g></svg></span>
+        <h3 lang="de">Heute</h3><h3 lang="en">Today</h3>
+        <p lang="de">Heute lebe ich weiterhin in München, in einer neuen Partnerschaft mit einem Partner aus Wien, und bin zurück im Berufsleben in einer Softwarefirma. Technologie und Spiritualität sind für mich kein Widerspruch, sondern zwei Wege, nach den großen Zusammenhängen zu suchen.</p>
+        <p lang="en">Today I still live in Munich, in a new relationship with a partner from Vienna, and I am back at work in a software company. For me, technology and spirituality are not a contradiction but two ways of searching for the bigger picture.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= WIE ICH ZU DIESER ARBEIT KAM ================= -->
+<section class="section calling" aria-labelledby="calling-h">
+  <div class="wrap calling-grid">
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Meine Berufung</span><span class="eyebrow" lang="en">My calling</span>
+      <h2 id="calling-h"><span lang="de">Wie ich zu dieser Arbeit kam</span><span lang="en">How I came to this work</span></h2>
+      <div lang="de">
+        <p>Die spirituelle Begleitung war immer ein Teil von mir. Im Laufe meines Lebens wurde sie immer deutlicher zu meiner Aufgabe. Heute darf ich als <strong>Consultant für die geistige Ebene</strong> wirken.</p>
+        <p>Ich bin mit vielen Ebenen verbunden: von der menschlichen Seele über die astralen Welten bis hinauf zu den Administratoren, Göttern und Schöpfern und zur Quelle. Ich bin geführt und darf diese einzelnen, getrennten Ebenen kontaktieren. So helfe ich Menschen, das irdische Leben besser zu verstehen.</p>
+        <p>Ich kenne die großen Zusammenhänge und möchte dir helfen, deinen <strong>individuell von dir gewählten Weg</strong> auf der Erde klarer zu erkennen. Dabei schreibe ich niemandem einen Weg vor. Die Entscheidungen bleiben immer bei dir.</p>
+      </div>
+      <div lang="en">
+        <p>Spiritual guidance has always been part of me. Over the course of my life it became ever clearer that this is my task. Today I am allowed to work as a <strong>consultant for the spiritual realm</strong>.</p>
+        <p>I am connected with many levels: from the human soul and the astral worlds up to the administrators, gods, creators and the Source. I am guided and allowed to contact these individual, separate levels. In this way I help people understand earthly life better.</p>
+        <p>I know the bigger picture and want to help you see more clearly the <strong>path you have individually chosen</strong> for your life on Earth. I never prescribe anyone's path. The decisions always remain yours.</p>
+      </div>
+    </div>
+    <div class="reveal">
+      <ul class="levels" aria-label="Ebenen">
+        <li><strong lang="de">Quelle</strong><strong lang="en">Source</strong><span lang="de">Ursprung von allem</span><span lang="en">Origin of all</span></li>
+        <li><strong lang="de">Administratoren · Götter · Schöpfer</strong><strong lang="en">Administrators · Gods · Creators</strong></li>
+        <li><strong lang="de">Geistige Welt</strong><strong lang="en">Spiritual world</strong><span lang="de">Wesenheiten, Seelen</span><span lang="en">Beings, souls</span></li>
+        <li><strong lang="de">Astrale Ebene</strong><strong lang="en">Astral plane</strong><span lang="de">unsere Heimat</span><span lang="en">our home</span></li>
+        <li><strong lang="de">Matrix Erde</strong><strong lang="en">Matrix Earth</strong><span lang="de">das irdische Leben</span><span lang="en">earthly life</span></li>
+      </ul>
+      <p class="levels-caption" lang="de">Die Ebenen, wie ich sie in meiner spirituellen Arbeit wahrnehme</p>
+      <p class="levels-caption" lang="en">The levels as I perceive them in my spiritual work</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEISTUNGEN ================= -->
+<section class="section" id="leistungen">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow" lang="de">Meine Angebote</span><span class="eyebrow" lang="en">My services</span>
+      <h2 lang="de">Für Klarheit, Orientierung und Ausrichtung</h2>
+      <h2 lang="en">For clarity, orientation and alignment</h2>
+      <hr class="rule">
+    </div>
+    <div class="services-grid">
+
+      <!-- Channeling -->
+      <article class="card reveal" id="channeling">
+        <div class="card-visual" data-img="images/silke-channeling.png">
+          <svg viewBox="0 0 400 225" role="img" aria-label="Channeling: Verbindung zu höheren Ebenen">
+            <defs><radialGradient id="g-ch" cx="50%" cy="10%" r="70%"><stop offset="0" stop-color="#F6C945" stop-opacity=".9"/><stop offset="1" stop-color="#F6C945" stop-opacity="0"/></radialGradient>
+            <linearGradient id="g-beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF4C2"/><stop offset="1" stop-color="#F6C945" stop-opacity="0"/></linearGradient></defs>
+            <rect width="400" height="225" fill="url(#g-ch)" opacity=".35"/>
+            <g fill="none" stroke="#D4AF37" stroke-width=".8" opacity=".6"><circle cx="200" cy="40" r="22"/><circle cx="200" cy="40" r="40"/><circle cx="200" cy="40" r="62"/><circle cx="200" cy="40" r="88"/></g>
+            <path d="M188 40 L212 40 L232 200 L168 200 Z" fill="url(#g-beam)" opacity=".55" class="glow"/>
+            <circle cx="200" cy="40" r="7" fill="#FFF4C2"/>
+            <path d="M0 205 Q100 185 200 200 T400 196 V225 H0Z" fill="#1A1608"/>
+            <g fill="#0A0A0A" stroke="#F6C945" stroke-width="1.2"><circle cx="200" cy="138" r="13"/><path d="M174 196 Q174 160 200 156 Q226 160 226 196 Z"/></g>
+            <g stroke="#F6C945" stroke-width="1" opacity=".7"><path d="M100 180 L130 180M270 180 L300 180M115 168 L130 168M270 168 L285 168"/></g>
+          </svg>
+        </div>
+        <div class="card-body">
+          <h3>Channeling</h3>
+          <p class="card-sub" lang="de">Direkte Botschaften aus höheren Ebenen</p>
+          <p class="card-sub" lang="en">Direct messages from higher levels</p>
+          <p lang="de">Im Channeling verbinde ich mich mit höheren Energien und wirke wie ein Kanal. Die Botschaften erreichen mich als innere Bilder, Worte oder Empfindungen. Ich übersetze sie achtsam für dich, aus der Seele, der geistigen Welt, von den Administratoren oder der Quelle.</p>
+          <p lang="en">In channeling I connect with higher energies and act as a channel. The messages reach me as inner images, words or sensations. I carefully translate them for you, from the soul, the spiritual world, the administrators or the Source.</p>
+          <ul class="tags" lang="de"><li>Lebensfragen</li><li>Partnerschaft</li><li>Wiederkehrende Muster</li><li>Veränderungen</li><li>Sinnfragen</li><li>Trauer &amp; Verlust</li></ul>
+          <ul class="tags" lang="en"><li>Life questions</li><li>Relationships</li><li>Recurring patterns</li><li>Change</li><li>Purpose</li><li>Grief &amp; loss</li></ul>
+        </div>
+      </article>
+
+      <!-- Tarot -->
+      <article class="card reveal" id="tarot">
+        <div class="card-visual" data-img="images/silke-tarot.png">
+          <svg viewBox="0 0 400 225" role="img" aria-label="Drei Tarotkarten mit Mond, Sonne und Stern">
+            <defs><radialGradient id="g-ta" cx="50%" cy="55%" r="60%"><stop offset="0" stop-color="#F6C945" stop-opacity=".45"/><stop offset="1" stop-color="#F6C945" stop-opacity="0"/></radialGradient></defs>
+            <rect width="400" height="225" fill="url(#g-ta)"/>
+            <g stroke="#D4AF37" stroke-width="1.4">
+              <g transform="rotate(-14 140 120)"><rect x="100" y="50" width="80" height="130" rx="6" fill="#16130A"/><rect x="106" y="56" width="68" height="118" rx="3" fill="none" opacity=".6"/><path d="M150 95 a20 20 0 1 1 -12 -18 a15 15 0 1 0 12 18z" fill="#F6C945" stroke="none"/></g>
+              <g><rect x="160" y="40" width="80" height="130" rx="6" fill="#1C170A"/><rect x="166" y="46" width="68" height="118" rx="3" fill="none" opacity=".6"/><circle cx="200" cy="100" r="16" fill="#F6C945" stroke="none"/><g stroke="#F6C945" stroke-width="2" stroke-linecap="round"><path d="M200 72v-8M200 128v8M172 100h-8M228 100h8M180 80l-6-6M220 120l6 6M180 120l-6 6M220 80l6-6"/></g></g>
+              <g transform="rotate(14 260 120)"><rect x="220" y="50" width="80" height="130" rx="6" fill="#16130A"/><rect x="226" y="56" width="68" height="118" rx="3" fill="none" opacity=".6"/><path d="M260 90 l5 13 14 0 -11 8 4 14 -12 -8 -12 8 4 -14 -11 -8 14 0z" fill="#F6C945" stroke="none"/></g>
+            </g>
+            <path d="M0 200 H400 V225 H0Z" fill="#1A1608"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <h3 lang="de">Tarotkarten</h3><h3 lang="en">Tarot</h3>
+          <p class="card-sub" lang="de">Intuitive Legungen, neue Perspektiven und klare Impulse</p>
+          <p class="card-sub" lang="en">Intuitive readings, new perspectives and clear impulses</p>
+          <p lang="de">Ich lege die Tarotkarten nicht nur, ich lebe sie. Ihre Symbolik wird zum Spiegel deiner Lebenssituation: Sie hilft, Gedanken zu ordnen, verborgene Wünsche und Konflikte sichtbar zu machen und neue Wege zu erkennen.</p>
+          <p lang="en">I don't just lay the tarot cards, I live them. Their symbolism becomes a mirror of your life situation: it helps to order your thoughts, reveal hidden wishes and conflicts, and recognise new paths.</p>
+          <ul class="tags" lang="de"><li>Beziehungen</li><li>Entscheidungen</li><li>Neuanfang</li><li>Persönliche Entwicklung</li></ul>
+          <ul class="tags" lang="en"><li>Relationships</li><li>Decisions</li><li>New beginnings</li><li>Personal growth</li></ul>
+        </div>
+      </article>
+
+      <!-- Familienaufstellungen -->
+      <article class="card reveal" id="aufstellung">
+        <div class="card-visual" data-img="images/familienaufstellung.png">
+          <svg viewBox="0 0 400 225" role="img" aria-label="Symbolische Familienaufstellung: Figuren im Kreis, durch feine Linien verbunden">
+            <defs><radialGradient id="g-fa" cx="50%" cy="60%" r="55%"><stop offset="0" stop-color="#F6C945" stop-opacity=".4"/><stop offset="1" stop-color="#F6C945" stop-opacity="0"/></radialGradient></defs>
+            <rect width="400" height="225" fill="url(#g-fa)"/>
+            <ellipse cx="200" cy="170" rx="150" ry="34" fill="none" stroke="#D4AF37" stroke-width=".8" opacity=".6"/>
+            <ellipse cx="200" cy="170" rx="100" ry="22" fill="none" stroke="#D4AF37" stroke-width=".8" opacity=".4"/>
+            <g stroke="#F6C945" stroke-width=".7" opacity=".55"><path d="M90 160 L160 140 L240 140 L310 160 M160 140 L200 175 L240 140 M120 185 L200 175 L280 185"/></g>
+            <g fill="#0B0A06" stroke="#F6C945" stroke-width="1.2">
+              <g transform="translate(90 160)"><circle cy="-34" r="9"/><path d="M-13 0 Q-13 -22 0 -24 Q13 -22 13 0Z"/></g>
+              <g transform="translate(160 140)"><circle cy="-40" r="10"/><path d="M-15 0 Q-15 -26 0 -28 Q15 -26 15 0Z"/></g>
+              <g transform="translate(240 140)"><circle cy="-40" r="10"/><path d="M-15 0 Q-15 -26 0 -28 Q15 -26 15 0Z"/></g>
+              <g transform="translate(310 160)"><circle cy="-34" r="9"/><path d="M-13 0 Q-13 -22 0 -24 Q13 -22 13 0Z"/></g>
+              <g transform="translate(200 175)"><circle cy="-26" r="7"/><path d="M-10 0 Q-10 -16 0 -18 Q10 -16 10 0Z"/></g>
+              <g transform="translate(120 185)"><circle cy="-24" r="6.5"/><path d="M-9 0 Q-9 -15 0 -16 Q9 -15 9 0Z"/></g>
+              <g transform="translate(280 185)"><circle cy="-24" r="6.5"/><path d="M-9 0 Q-9 -15 0 -16 Q9 -15 9 0Z"/></g>
+            </g>
+          </svg>
+        </div>
+        <div class="card-body">
+          <h3 lang="de">Familienaufstellungen</h3><h3 lang="en">Family Constellations</h3>
+          <p class="card-sub" lang="de">Verborgene Dynamiken erkennen, lösen und neue Ordnung schaffen</p>
+          <p class="card-sub" lang="en">Recognise hidden dynamics, release them and create new order</p>
+          <p lang="de">Familien prägen unser Leben, und manche Muster begleiten uns über Generationen. In der systemischen Aufstellungsarbeit werden Beziehungen, Rollen und Dynamiken sichtbar. So entstehen neue Perspektiven, und du erkennst deinen eigenen Platz im System bewusster.</p>
+          <p lang="en">Families shape our lives, and some patterns accompany us across generations. In systemic constellation work, relationships, roles and dynamics become visible. New perspectives emerge, and you become more aware of your own place in the system.</p>
+          <ul class="tags" lang="de"><li>Familie</li><li>Herkunft</li><li>Rollen</li><li>Beziehungsmuster</li></ul>
+          <ul class="tags" lang="en"><li>Family</li><li>Origins</li><li>Roles</li><li>Relationship patterns</li></ul>
+        </div>
+      </article>
+
+      <!-- Energiearbeit -->
+      <article class="card reveal" id="energie">
+        <div class="card-visual">
+          <img src="images/entwurf-hero.jpg" loading="lazy" width="525" height="340" style="object-position:50% 30%"
+               alt="Energetische Sitzung: Silke hält die Hände über eine ruhende Person"
+               data-alt-en="Energy session: Silke holds her hands above a resting person">
+        </div>
+        <div class="card-body">
+          <h3 lang="de">Energetische Arbeit</h3><h3 lang="en">Energy Work</h3>
+          <p class="card-sub" lang="de">Energieaustausch in Ruhe und Achtsamkeit</p>
+          <p class="card-sub" lang="en">Energy exchange in stillness and mindfulness</p>
+          <p lang="de">Du liegst bekleidet und entspannt auf einer Liege. Ich halte meine Hände über Gesicht und Körper, ohne dich zu berühren, und lasse den Energieaustausch geschehen. Ein Raum für Ruhe, Wahrnehmung und neue Ausrichtung.</p>
+          <p lang="en">You lie fully clothed and relaxed on a couch. I hold my hands above your face and body without touching you and allow the energy exchange to happen. A space for stillness, awareness and new alignment.</p>
+          <ul class="tags" lang="de"><li>Entspannung</li><li>Ausrichtung</li><li>Ohne Berührung</li></ul>
+          <ul class="tags" lang="en"><li>Relaxation</li><li>Alignment</li><li>No physical contact</li></ul>
+          <p class="note" lang="de">Spirituelle Begleitung ersetzt keine ärztliche oder psychotherapeutische Behandlung.</p>
+          <p class="note" lang="en">Spiritual guidance does not replace medical or psychotherapeutic treatment.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MEDIALITÄT ================= -->
+<section class="section medium" id="medialitaet">
+  <div class="wrap medium-grid">
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Medialität</span><span class="eyebrow" lang="en">Mediumship</span>
+      <h2 lang="de">Kontakt zur geistigen Welt</h2>
+      <h2 lang="en">Contact with the spiritual world</h2>
+      <div lang="de">
+        <p>Ich habe die Gabe, astrale Wesenheiten wahrzunehmen und über meine Kanäle mit ihnen in Kontakt zu treten.</p>
+        <p>Auch Seelen, die ihren menschlichen Körper abgelegt haben, kann ich kontaktieren. Gerade in Zeiten von Trauer und Verlust begleite ich Menschen dabei behutsam, respektvoll und mit großer Sorgfalt.</p>
+      </div>
+      <div lang="en">
+        <p>I have the gift of perceiving astral beings and connecting with them through my channels.</p>
+        <p>I can also contact souls who have laid down their human body. Especially in times of grief and loss, I accompany people gently, respectfully and with great care.</p>
+      </div>
+    </div>
+    <div class="medium-box reveal">
+      <h3 lang="de">Die ersten 40 Tage</h3><h3 lang="en">The first 40 days</h3>
+      <p lang="de">Am leichtesten gelingt der Kontakt meist in den ersten 40 Tagen nach dem Tod. In dieser Zeit sind die Energien der Verstorbenen noch stark in der Matrix Erde verwurzelt.</p>
+      <p lang="en">Contact is usually easiest within the first 40 days after death. During this time, the energies of the deceased are still strongly rooted in the matrix of Earth.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CHAKREN ================= -->
+<section class="section" id="chakren">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Wissen</span><span class="eyebrow" lang="en">Knowledge</span>
+      <h2 lang="de">Chakren – der energetische Taucheranzug</h2>
+      <h2 lang="en">Chakras – the energetic diving suit</h2>
+    </div>
+    <div class="chakra-grid">
+      <div class="reveal">
+        <div lang="de">
+          <p class="lead">Die Chakren sind wie ein energetischer Taucheranzug: Sie umhüllen, schützen, versorgen und verbinden unseren physischen Körper mit Bewusstsein, Emotionen und den höheren Ebenen.</p>
+          <p>So wie ein Taucher einen Anzug braucht, um in einer fremden Umgebung zu leben, braucht unsere Seele den Körper und seine Energiezentren, um auf der Erde Erfahrungen zu machen. Nicht nur Menschen haben Chakren: Auch Tiere tragen ihren energetischen Anzug.</p>
+        </div>
+        <div lang="en">
+          <p class="lead">The chakras are like an energetic diving suit: they envelop, protect, nourish and connect our physical body with consciousness, emotions and the higher levels.</p>
+          <p>Just as a diver needs a suit to live in a foreign environment, our soul needs the body and its energy centres to have experiences on Earth. Not only humans have chakras: animals wear their energetic suit, too.</p>
+        </div>
+        <ul class="chakra-list">
+          <li><i class="c" style="color:#9C4DCC"></i><strong lang="de">Kronenchakra</strong><strong lang="en">Crown</strong><span lang="de">Verbindung zur Quelle, Bewusstsein</span><span lang="en">Connection to the Source, consciousness</span></li>
+          <li><i class="c" style="color:#4F5BD5"></i><strong lang="de">Stirnchakra</strong><strong lang="en">Third Eye</strong><span lang="de">Intuition, Erkenntnis, innere Führung</span><span lang="en">Intuition, insight, inner guidance</span></li>
+          <li><i class="c" style="color:#2E9BE6"></i><strong lang="de">Halschakra</strong><strong lang="en">Throat</strong><span lang="de">Ausdruck, Wahrheit, Kommunikation</span><span lang="en">Expression, truth, communication</span></li>
+          <li><i class="c" style="color:#3FA34D"></i><strong lang="de">Herzchakra</strong><strong lang="en">Heart</strong><span lang="de">Liebe, Mitgefühl, Verbindung</span><span lang="en">Love, compassion, connection</span></li>
+          <li><i class="c" style="color:#E8B800"></i><strong lang="de">Solarplexus</strong><strong lang="en">Solar Plexus</strong><span lang="de">Kraft, Selbstvertrauen, Umsetzung</span><span lang="en">Power, confidence, action</span></li>
+          <li><i class="c" style="color:#F07C1E"></i><strong lang="de">Sakralchakra</strong><strong lang="en">Sacral</strong><span lang="de">Kreativität, Lebensfreude, Sinnlichkeit</span><span lang="en">Creativity, joy of life, sensuality</span></li>
+          <li><i class="c" style="color:#D93A2B"></i><strong lang="de">Wurzelchakra</strong><strong lang="en">Root</strong><span lang="de">Erdung, Sicherheit, Lebensenergie</span><span lang="en">Grounding, security, life energy</span></li>
+        </ul>
+      </div>
+
+      <div class="chakra-visuals reveal">
+        <figure>
+          <svg class="suit" viewBox="0 0 220 360" role="img" aria-label="Menschliche Silhouette mit sieben Chakren, umhüllt von einem goldenen energetischen Taucheranzug">
+            <defs>
+              <radialGradient id="g-suit" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#F6C945" stop-opacity=".35"/><stop offset="1" stop-color="#F6C945" stop-opacity="0"/></radialGradient>
+            </defs>
+            <ellipse cx="110" cy="180" rx="100" ry="170" fill="url(#g-suit)" class="glow"/>
+            <!-- Anzug: dieselbe Form, breit und golden -->
+            <g stroke="#F6C945" stroke-opacity=".3" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" fill="#F6C945" fill-opacity=".3">
+              <circle cx="110" cy="48" r="22"/><path d="M80 82 Q110 74 140 82 L146 190 Q110 200 74 190Z"/>
+              <path d="M84 86 L64 186 M136 86 L156 186" stroke-width="44" fill="none"/>
+              <path d="M96 196 L92 330 M124 196 L128 330" stroke-width="50" fill="none"/>
+            </g>
+            <g stroke="#F6C945" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".9">
+              <circle cx="110" cy="48" r="32"/><path d="M60 84 Q110 62 160 84"/>
+            </g>
+            <g stroke="#F6C945" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity=".9">
+              <circle cx="110" cy="48" r="36"/>
+            </g>
+            <!-- Körper -->
+            <g fill="#14110A" stroke="#14110A" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="110" cy="48" r="22"/><path d="M80 82 Q110 74 140 82 L146 190 Q110 200 74 190Z"/>
+              <path d="M84 86 L64 186 M136 86 L156 186" stroke-width="16" fill="none"/>
+              <path d="M96 196 L92 330 M124 196 L128 330" stroke-width="22" fill="none"/>
+            </g>
+            <g>
+              <circle cx="110" cy="22" r="6" fill="#9C4DCC"/><circle cx="110" cy="44" r="6" fill="#4F5BD5"/>
+              <circle cx="110" cy="80" r="6" fill="#2E9BE6"/><circle cx="110" cy="112" r="6.5" fill="#3FA34D"/>
+              <circle cx="110" cy="142" r="6.5" fill="#E8B800"/><circle cx="110" cy="168" r="6.5" fill="#F07C1E"/>
+              <circle cx="110" cy="192" r="6.5" fill="#D93A2B"/>
+            </g>
+          </svg>
+          <figcaption lang="de">Der Körper im energetischen Taucheranzug</figcaption>
+          <figcaption lang="en">The body in its energetic diving suit</figcaption>
+        </figure>
+        <figure data-img="images/chakren-mensch-tiere.png">
+          <img src="images/entwurf-chakren.jpg" loading="lazy" width="218" height="306"
+               alt="Mensch und Katze mit leuchtenden Chakren entlang der Wirbelsäule"
+               data-alt-en="Human and cat with glowing chakras along the spine">
+          <figcaption lang="de">Auch Tiere tragen Chakren</figcaption>
+          <figcaption lang="en">Animals have chakras, too</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DUALITÄT ================= -->
+<section class="section duality" id="dualitaet">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow" lang="de">Der große Wandel</span><span class="eyebrow" lang="en">The great transition</span>
+      <h2 lang="de">Von Dualität 1 zu Dualität 2</h2>
+      <h2 lang="en">From Duality 1 to Duality 2</h2>
+      <p class="lead" lang="de">Abgleich, Übergang und Neuausrichtung</p>
+      <p class="lead" lang="en">Alignment, transition and reorientation</p>
+    </div>
+    <div class="d-compare">
+      <div class="d-card d1 reveal">
+        <span class="d-badge">D1</span>
+        <h3 lang="de">Die Welt der Trennung</h3><h3 lang="en">The world of separation</h3>
+        <p lang="de">Der nun letzte Abschnitt einer Zeit, geprägt von Polarität und Begrenzung:</p>
+        <p lang="en">The final chapter of an era shaped by polarity and limitation:</p>
+        <ul lang="de"><li>Ich und Du</li><li>Liebe und Angst</li><li>Nähe und Distanz</li><li>Gewinn und Verlust</li><li>Zugehörigkeit und Trennung</li></ul>
+        <ul lang="en"><li>Self and other</li><li>Love and fear</li><li>Closeness and distance</li><li>Gain and loss</li><li>Belonging and separation</li></ul>
+      </div>
+      <div class="d-arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></div>
+      <div class="d-card d2 reveal">
+        <span class="d-badge">D2</span>
+        <h3 lang="de">Ein neuer Erfahrungsraum</h3><h3 lang="en">A new space of experience</h3>
+        <p lang="de">Was sich jetzt neu auftut und von allen Ebenen gewünscht wurde:</p>
+        <p lang="en">What is now opening up, and what all levels have wished for:</p>
+        <ul lang="de"><li>Mehr Bewusstsein</li><li>Mehr Verbindung</li><li>Eigenverantwortung</li><li>Bewusster Umgang mit Gegensätzen</li><li>Klarheit über die Kräfte, die unser Leben formen</li></ul>
+        <ul lang="en"><li>Greater awareness</li><li>Deeper connection</li><li>Self-responsibility</li><li>A conscious way of dealing with opposites</li><li>Clarity about the forces that shape our lives</li></ul>
+      </div>
+    </div>
+    <div class="d-text reveal">
+      <div class="callout">
+        <svg><use href="#i-lotus"/></svg>
+        <div>
+          <p lang="de">Im nun letzten Abschnitt der dualistischen Welt 1 habe ich den Auftrag, die neue Dualität&nbsp;2 (D2) mit der alten Dualität&nbsp;1 (D1) abzugleichen. Ich gehöre zu den Vorreitern, die Einblick in das haben, was sich nun neu auftut. Diese Impulse gebe ich an die Menschen auf der Erde weiter.</p>
+          <p lang="en">In this final chapter of the dualistic world 1, my task is to align the new Duality&nbsp;2 (D2) with the old Duality&nbsp;1 (D1). I am one of the forerunners who have insight into what is now opening up. I pass these impulses on to the people on Earth.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WERTE ================= -->
+<section class="section" aria-labelledby="werte-h">
+  <div class="wrap">
+    <div class="center reveal">
+      <span class="eyebrow" lang="de">Meine Werte</span><span class="eyebrow" lang="en">My values</span>
+      <h2 id="werte-h"><span lang="de">Respekt. Wahrhaftigkeit. Verantwortung.</span><span lang="en">Respect. Truthfulness. Responsibility.</span></h2>
+      <p lang="de" style="max-width:680px;margin-inline:auto">Jeder Mensch geht seinen eigenen Weg. Ich möchte niemanden von meiner Weltanschauung überzeugen, sondern einen geschützten Raum schaffen, in dem deine Fragen Platz haben.</p>
+      <p lang="en" style="max-width:680px;margin-inline:auto">Everyone walks their own path. I don't want to convince anyone of my worldview; I want to create a protected space where your questions can be explored.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value reveal"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+        <h3 lang="de">Respekt</h3><h3 lang="en">Respect</h3>
+        <p lang="de">Jeder Mensch verdient Würde und Anerkennung.</p><p lang="en">Every person deserves dignity and recognition.</p></div>
+      <div class="value reveal"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></g></svg>
+        <h3 lang="de">Wahrhaftigkeit</h3><h3 lang="en">Truthfulness</h3>
+        <p lang="de">Ich gebe weiter, was ich wahrnehme, klar und ehrlich.</p><p lang="en">I pass on what I perceive, clearly and honestly.</p></div>
+      <div class="value reveal"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></g></svg>
+        <h3 lang="de">Diskretion</h3><h3 lang="en">Confidentiality</h3>
+        <p lang="de">Persönliche Gespräche bleiben vertraulich.</p><p lang="en">Personal conversations remain confidential.</p></div>
+      <div class="value reveal"><svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="5" r="2.5"/><path d="M12 8v7M8 22l4-7 4 7M6 11h12"/></g></svg>
+        <h3 lang="de">Eigenverantwortung</h3><h3 lang="en">Self-responsibility</h3>
+        <p lang="de">Du bleibst für deine Entscheidungen selbst verantwortlich.</p><p lang="en">You remain responsible for your own decisions.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HONORAR ================= -->
+<section class="section fees center" aria-labelledby="fees-h">
+  <div class="wrap reveal">
+    <span class="eyebrow" lang="de">Honorar &amp; Termine</span><span class="eyebrow" lang="en">Fees &amp; appointments</span>
+    <h2 id="fees-h"><span lang="de">Im höheren Auftrag – im irdischen Leben</span><span lang="en">On a higher mission – in an earthly life</span></h2>
+    <p lang="de">Meine Arbeit verstehe ich als Berufung im höheren Auftrag. Gleichzeitig findet sie in einer Welt statt, in der Geld noch nicht frei zur Verfügung steht. Jede Sitzung erfordert Zeit, Konzentration, Erfahrung und individuelle Vorbereitung. Deshalb biete ich meine Begleitung gegen ein transparentes Honorar an. Dauer und Preis besprechen wir vor jedem Termin.</p>
+    <p lang="en">I see my work as a calling on a higher mission. At the same time, it takes place in a world where money is not yet freely available. Every session requires time, focus, experience and individual preparation. That is why I offer my guidance for a transparent fee. We discuss duration and price before every appointment.</p>
+    <div class="btn-row">
+      <a class="btn btn-dark" href="#kontakt"><svg><use href="#i-cal"/></svg><span lang="de">Honorar und Termin anfragen</span><span lang="en">Request fees and availability</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAKT ================= -->
+<section class="section" id="kontakt">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" lang="de">Kontakt</span><span class="eyebrow" lang="en">Contact</span>
+      <h2 lang="de">Dein Weg beginnt mit einem Gespräch</h2>
+      <h2 lang="en">Your journey begins with a conversation</h2>
+      <p lang="de" style="max-width:640px">Wenn du Fragen zu meiner Arbeit hast oder einen persönlichen Termin vereinbaren möchtest, freue ich mich auf deine Nachricht.</p>
+      <p lang="en" style="max-width:640px">If you have questions about my work or would like to arrange a personal appointment, I look forward to hearing from you.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <h3>Silke Slootz</h3>
+        <a class="contact-line" href="tel:+491791239006"><svg><use href="#i-phone"/></svg><span><small lang="de">Telefon</small><small lang="en">Phone</small><strong>+49 179 1239006</strong></span></a>
+        <a class="contact-line" href="https://wa.me/491791239006" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span><small>WhatsApp</small><strong>+49 179 1239006</strong></span></a>
+        <div class="contact-line"><svg><use href="#i-pin"/></svg><span><small lang="de">Standort</small><small lang="en">Location</small><strong lang="de">München, Deutschland</strong><strong lang="en">Munich, Germany</strong></span></div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="tel:+491791239006"><svg><use href="#i-phone"/></svg><span lang="de">Jetzt anrufen</span><span lang="en">Call now</span></a>
+          <a class="btn btn-wa" href="https://wa.me/491791239006" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span lang="de">WhatsApp-Nachricht schreiben</span><span lang="en">Send a WhatsApp message</span></a>
+        </div>
+      </div>
+
+      <form class="request reveal" id="request" novalidate>
+        <h3 lang="de">Termin anfragen</h3><h3 lang="en">Request an appointment</h3>
+        <div class="field">
+          <label for="f-name"><span lang="de">Dein Name</span><span lang="en">Your name</span></label>
+          <input id="f-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="f-topic"><span lang="de">Worum geht es?</span><span lang="en">What is it about?</span></label>
+          <select id="f-topic" name="topic">
+            <option data-de="Channeling" data-en="Channeling">Channeling</option>
+            <option data-de="Tarotkarten" data-en="Tarot reading">Tarotkarten</option>
+            <option data-de="Familienaufstellung" data-en="Family constellation">Familienaufstellung</option>
+            <option data-de="Energetische Arbeit" data-en="Energy work">Energetische Arbeit</option>
+            <option data-de="Kontakt zur geistigen Welt" data-en="Contact with the spiritual world">Kontakt zur geistigen Welt</option>
+            <option data-de="Allgemeine Frage" data-en="General question">Allgemeine Frage</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-when"><span lang="de">Wunschtermin (optional)</span><span lang="en">Preferred date (optional)</span></label>
+          <input id="f-when" name="when">
+        </div>
+        <div class="field">
+          <label for="f-msg"><span lang="de">Deine Nachricht</span><span lang="en">Your message</span></label>
+          <textarea id="f-msg" name="message"></textarea>
+        </div>
+        <button class="btn btn-gold" type="submit"><svg><use href="#i-wa"/></svg><span lang="de">Anfrage per WhatsApp senden</span><span lang="en">Send request via WhatsApp</span></button>
+        <p class="form-hint" lang="de">Beim Absenden öffnet sich WhatsApp mit deiner vorbereiteten Nachricht. Erst dort schickst du sie ab. Diese Website speichert keine Daten.</p>
+        <p class="form-hint" lang="en">When you submit, WhatsApp opens with your prepared message. You send it from there. This website does not store any data.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="#start"><svg style="color:var(--sun)"><use href="#i-flower"/></svg><span><span class="logo-name">Silke Slootz</span><span class="logo-sub">Medium · Channel · Tarot · Systemik</span></span></a>
+        <p lang="de">Brücke zwischen den Welten · München</p><p lang="en">A bridge between worlds · Munich</p>
+      </div>
+      <nav aria-label="Rechtliches">
+        <a href="impressum.html"><span lang="de">Impressum</span><span lang="en">Legal notice</span></a>
+        <a href="datenschutz.html"><span lang="de">Datenschutz</span><span lang="en">Privacy</span></a>
+        <a href="#kontakt"><span lang="de">Kontakt</span><span lang="en">Contact</span></a>
+      </nav>
+    </div>
+    <p class="disclaimer" lang="de">Hinweis: Meine Angebote sind spirituelle Lebensbegleitung und beschreiben meine persönliche Wahrnehmung und Weltanschauung. Sie ersetzen keine Diagnose oder Behandlung durch Ärztinnen, Ärzte, Psychotherapeutinnen, Psychotherapeuten oder Heilpraktiker und sind kein Heilversprechen. © <span class="year">2026</span> Silke Slootz</p>
+    <p class="disclaimer" lang="en">Please note: my services are spiritual life guidance and describe my personal perception and worldview. They do not replace diagnosis or treatment by physicians, psychotherapists or other health professionals and are not a promise of healing. © <span class="year">2026</span> Silke Slootz</p>
+  </div>
+</footer>
+
+<div class="dock" role="complementary" aria-label="Schnellkontakt">
+  <div class="wrap">
+    <a href="tel:+491791239006"><svg><use href="#i-phone"/></svg><span class="lbl">+49 179 1239006</span></a>
+    <span class="sep"></span>
+    <a href="https://wa.me/491791239006" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    <span class="sep"></span>
+    <a href="#kontakt"><svg><use href="#i-cal"/></svg><span lang="de">Termin vereinbaren</span><span lang="en">Book a session</span></a>
+    <a class="btn btn-gold" href="#kontakt"><svg><use href="#i-arrow"/></svg><span lang="de">Jetzt Termin anfragen</span><span lang="en">Request now</span></a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var titles = {
+    de: "Silke Slootz – Medium, Channeling, Tarot & systemische Begleitung in München",
+    en: "Silke Slootz – Medium, Channeling, Tarot & Systemic Guidance in Munich"
+  };
+  var descs = {
+    de: "Silke Slootz – Medium, Channel, Tarot und systemische Begleitung in München. Brücke zwischen den Welten: Botschaften, Orientierung und Klarheit für dein irdisches Leben.",
+    en: "Silke Slootz – medium, channel, tarot and systemic guidance in Munich. A bridge between worlds: messages, orientation and clarity for your earthly life."
+  };
+
+  // Deutsche Alternativtexte merken, damit wir zurückschalten können
+  document.querySelectorAll("img[data-alt-en]").forEach(function (img) { img.dataset.altDe = img.alt; });
+
+  function setLang(lang) {
+    if (lang !== "en") lang = "de";
+    root.lang = lang;
+    root.dataset.lang = lang;
+    document.title = titles[lang];
+    document.querySelector('meta[name="description"]').content = descs[lang];
+    document.querySelectorAll("[data-set-lang]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.setLang === lang));
+    });
+    document.querySelectorAll("img[data-alt-en]").forEach(function (img) {
+      img.alt = lang === "en" ? img.dataset.altEn : img.dataset.altDe;
+    });
+    document.querySelectorAll("option[data-de]").forEach(function (o) { o.textContent = o.dataset[lang]; });
+    burger.setAttribute("aria-label", lang === "en" ? "Open menu" : "Menü öffnen");
+    try { localStorage.setItem("lang", lang); } catch (e) {}
+  }
+
+  var burger = document.querySelector(".burger");
+  var nav = document.getElementById("nav");
+  var params = new URLSearchParams(location.search);
+  var saved = null;
+  try { saved = localStorage.getItem("lang"); } catch (e) {}
+  setLang(params.get("lang") || saved || "de");
+  document.querySelectorAll("[data-set-lang]").forEach(function (b) {
+    b.addEventListener("click", function () { setLang(b.dataset.setLang); });
+  });
+
+  // Mobiles Menü
+  burger.addEventListener("click", function () {
+    var open = nav.classList.toggle("open");
+    burger.setAttribute("aria-expanded", String(open));
+  });
+  nav.addEventListener("click", function (e) {
+    if (e.target.closest("a")) { nav.classList.remove("open"); burger.setAttribute("aria-expanded", "false"); }
+  });
+
+  // Echte Bilder (von ChatGPT) automatisch verwenden, sobald sie im Ordner "images" liegen
+  document.querySelectorAll("[data-img]").forEach(function (box) {
+    var test = new Image();
+    test.onload = function () {
+      var old = box.querySelector("svg, img");
+      var img = document.createElement("img");
+      img.src = box.dataset.img;
+      img.loading = "lazy";
+      img.alt = (old && (old.getAttribute("aria-label") || old.alt)) || "";
+      if (old) old.replaceWith(img); else box.prepend(img);
+    };
+    test.src = box.dataset.img;
+  });
+
+  // Aktiven Menüpunkt beim Scrollen markieren
+  var links = Array.prototype.slice.call(nav.querySelectorAll("a"));
+  if ("IntersectionObserver" in window) {
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          links.forEach(function (a) { a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id); });
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    links.forEach(function (a) { var s = document.querySelector(a.getAttribute("href")); if (s) spy.observe(s); });
+
+    var rev = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("in"); rev.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".reveal").forEach(function (el) { rev.observe(el); });
+  } else {
+    document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
+  }
+
+  // Anfrageformular: öffnet WhatsApp mit vorbereitetem Text
+  document.getElementById("request").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var f = e.target, en = root.dataset.lang === "en";
+    var name = f.name.value.trim();
+    if (!name) { f.name.focus(); f.name.setAttribute("aria-invalid", "true"); return; }
+    var lines = [
+      (en ? "Hello Silke, my name is " : "Hallo Silke, mein Name ist ") + name + ".",
+      (en ? "Topic: " : "Thema: ") + f.topic.value
+    ];
+    if (f.when.value.trim()) lines.push((en ? "Preferred date: " : "Wunschtermin: ") + f.when.value.trim());
+    if (f.message.value.trim()) lines.push("", f.message.value.trim());
+    window.open("https://wa.me/491791239006?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+  });
+
+  document.querySelectorAll(".year").forEach(function (y) { y.textContent = new Date().getFullYear(); });
+})();
+</script>
+</body>
+</html>
